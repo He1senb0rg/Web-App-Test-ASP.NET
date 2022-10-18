@@ -40,3 +40,4 @@ C:\Users\andre\source\repos\Web App Test\Web App Test\obj\Debug\net5.0\Web App T
 C:\Users\andre\source\repos\Web App Test\Web App Test\obj\Debug\net5.0\Razor\Views\Home\T605.cshtml.g.cs
 C:\Users\andre\source\repos\Web App Test\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\InputForm.cshtml.g.cs
 C:\Users\andre\source\repos\Web App Test\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\InputFormFixe.cshtml.g.cs
+C:\Users\andre\source\repos\Web App Test\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\BomForm.cshtml.g.cs

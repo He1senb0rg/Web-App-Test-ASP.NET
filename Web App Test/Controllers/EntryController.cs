@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace Web_App_Test.Controllers
 {
@@ -33,24 +34,58 @@ namespace Web_App_Test.Controllers
         [HttpPost]
         public IActionResult InputFormFixe(int a, int b, string op)
         {
+            int res = 0;
             switch (op){
                 case "+":
-                    return Content((a + b).ToString());
+                    res = a + b;
                     break;
                 case "-":
-                    return Content((a - b).ToString());
+                    res = a - b;
                     break ;
                 case "*":
-                    return Content((a * b).ToString());
+                    res = a * b;
                     break;
                 case "/":
-                    return Content((a / b).ToString());
+                    res = a / b;
                     break;
                 default:
                     return Content("erro :(");
                     break;
             }
-              
+            ViewBag.a = a;
+            ViewBag.b = b;
+            ViewBag.res = res;
+
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult BomForm()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult BomForm(string name)
+        {
+            int hora = DateTime.Now.Hour;
+            string dia = "";
+            if(hora > 0 && hora < 12)
+            {
+                dia = "Bom dia, ";
+            }
+            else if(hora > 12 && hora < 20)
+            {
+                dia = "Bom tarde, ";
+            }
+            else if (hora > 20 && hora < 0)
+            {
+                dia = "Bom noite, ";
+            }
+
+            ViewData["dia"] = dia;
+            ViewData["name"] = name;
+
+            return View();
         }
     }
 }

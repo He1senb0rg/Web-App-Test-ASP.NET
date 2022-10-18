@@ -6,14 +6,15 @@
     <h1>calculadora pra exame MATEMATICA A² DO 15º ANO</h1>
 
     <form asp-controller="Entry" asp-action="InputFormFixe" method="post">
-        <input type="text" asp-for-a name="a" id="a" />
+        <p>Resultado: @ViewData["res"]</p>
+        <input type="text" asp-for-a name="a" id="a" value=@ViewData["a"] />
         <select id="op" name="op">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">*</option>
             <option value="/">/</option>
         </select>
-        <input type="text" asp-for-b name="b" id="b" />
+        <input type="text" asp-for-b name="b" id="b" value=@ViewData["b"] />
         <button type="submit">Calcular</button>
     </form>
     <br />
