@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 
 namespace Web_App_Test.Controllers
@@ -86,6 +87,44 @@ namespace Web_App_Test.Controllers
             ViewData["name"] = name;
 
             return View();
+        }
+
+        public IActionResult CalculadoraFixe()
+        {
+            return View();
+        }
+        
+        public IActionResult numero(int num)
+        {
+            string op = HttpContext.Session.GetString("op") ?? "";
+
+            op += num;
+
+            HttpContext.Session.SetString("op", op);
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult add()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult result()
+        {
+            int op = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            int res = (HttpContext.Session.GetInt32("res") ?? 0) + op;
+
+            HttpContext.Session.SetString("op", res.ToString());
+
+            return View("CalculadoraFixe");
         }
     }
 }

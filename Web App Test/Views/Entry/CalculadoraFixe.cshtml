@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Exame matematica";
+}
+
+<div style="text-align: center">
+    <h1>calculadora somar pra exame MATEMATICA A DO 13º ANO</h1>
+
+    <form asp-controller="Entry" asp-action="InputForm" method="post">
+        <input type="text" asp-for-a name="a" id="a" />
+        <button type="submit" name="num" value="1" formaction="/Entry/numero" >1</button>
+        <button type="submit" name="num" value="2" formaction="/Entry/numero">2</button>
+        <button type="submit" name="num" value="3" formaction="/Entry/numero">3</button>
+        <button type="submit" name="num" value="4" formaction="/Entry/numero">4</button>
+        <button type="submit" name="num" value="5" formaction="/Entry/numero">5</button>
+        <button type="submit" name="num" value="6" formaction="/Entry/numero">6</button>
+        <button type="submit" name="num" value="7" formaction="/Entry/numero">7</button>
+        <button type="submit" name="num" value="8" formaction="/Entry/numero">8</button>
+        <button type="submit" name="num" value="9" formaction="/Entry/numero">9</button>
+        <button type="submit" name="num" value="0" formaction="/Entry/numero">0</button>
+        <button type="submit" name="clear" value="C" formaction="/Entry/clear">C</button>
+        <button type="submit" name="add" value="+" formaction="/Entry/add">+</button>
+        <button type="submit">-</button>
+        <button type="submit">*</button>
+        <button type="submit">/</button>
+        <button type="submit" name="result" value="=" formaction="/Entry/result">=</button>
+    </form>
+</div>
+
+
