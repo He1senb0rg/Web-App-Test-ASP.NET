@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\Web App Test\\Web App Test\\Web App Test.csproj": {}
+    "C:\\Users\\Big Boss\\Desktop\\Web-App-Test-ASP.NET\\Web App Test\\Web App Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\Web App Test\\Web App Test\\Web App Test.csproj": {
+    "C:\\Users\\Big Boss\\Desktop\\Web-App-Test-ASP.NET\\Web App Test\\Web App Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\Web App Test\\Web App Test\\Web App Test.csproj",
+        "projectUniqueName": "C:\\Users\\Big Boss\\Desktop\\Web-App-Test-ASP.NET\\Web App Test\\Web App Test.csproj",
         "projectName": "Web App Test",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\Web App Test\\Web App Test\\Web App Test.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\Web App Test\\Web App Test\\obj\\",
+        "projectPath": "C:\\Users\\Big Boss\\Desktop\\Web-App-Test-ASP.NET\\Web App Test\\Web App Test.csproj",
+        "packagesPath": "C:\\Users\\Big Boss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Big Boss\\Desktop\\Web-App-Test-ASP.NET\\Web App Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Big Boss\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,15 +45,26 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -64,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

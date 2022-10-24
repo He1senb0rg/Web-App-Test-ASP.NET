@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1RyP/ss3wP6mGLaTboNPmrYXlAYj/jfDjuSs7iuwE5/UfoL35Oi03iVIq90u/7wCBFPiI+j2ZySKBcS0wIu4Dw==",
+  "dgSpecHash": "BU/zlO1kDfKHnXDe1PlfSMjytilWynlhB5PBx94NcMs4FgcJjhdDu22XZBwVeqfAU9m/VYGj3vgoz0lEpDyAIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\source\\repos\\Web App Test\\Web App Test\\Web App Test.csproj",
+  "projectFilePath": "C:\\Users\\Big Boss\\Desktop\\Web-App-Test-ASP.NET\\Web App Test\\Web App Test.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\Big Boss\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\Big Boss\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Big Boss\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Big Boss\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

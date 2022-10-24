@@ -94,7 +94,7 @@ namespace Web_App_Test.Controllers
             return View();
         }
         
-        public IActionResult numero(int num)
+        public IActionResult numero(string num)
         {
             string op = HttpContext.Session.GetString("op") ?? "";
 
@@ -112,6 +112,43 @@ namespace Web_App_Test.Controllers
             HttpContext.Session.SetInt32("res", res);
 
             HttpContext.Session.SetString("op", "");
+            HttpContext.Session.SetString("operador", "+");
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult sub()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+            HttpContext.Session.SetString("operador", "-");
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult mult()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+            HttpContext.Session.SetString("operador", "*");
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult div()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+            HttpContext.Session.SetString("operador", "/");
 
             return View("CalculadoraFixe");
         }
@@ -119,11 +156,31 @@ namespace Web_App_Test.Controllers
         public IActionResult result()
         {
             int op = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+            int res = Convert.ToInt32(HttpContext.Session.GetInt32("res") ?? 0);
 
-            int res = (HttpContext.Session.GetInt32("res") ?? 0) + op;
+            String operador = HttpContext.Session.GetString("operador") ?? "";
 
             HttpContext.Session.SetString("op", res.ToString());
 
+            int resultado = 0;
+
+            switch (operador)
+            {
+                case "+":
+                    resultado = res + op;
+                    break;
+                case "-":
+                    resultado = res - op;
+                    break;
+                case "*":
+                    resultado = res * op;
+                    break;
+                case "/":
+                    resultado = res / op;
+                    break;
+            }
+
+            HttpContext.Session.SetString("op", resultado.ToString());
             return View("CalculadoraFixe");
         }
     }
