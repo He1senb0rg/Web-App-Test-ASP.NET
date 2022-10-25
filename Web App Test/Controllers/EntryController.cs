@@ -178,9 +178,104 @@ namespace Web_App_Test.Controllers
                 case "/":
                     resultado = res / op;
                     break;
+                case "^":
+                    resultado = Convert.ToInt32(Math.Pow(res, op));
+                    break;
             }
 
             HttpContext.Session.SetString("op", resultado.ToString());
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult clear(string num)
+        {
+            HttpContext.Session.SetString("op", "");
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult sqrt()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+            int op = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+
+            res = Convert.ToInt32(Math.Sqrt(op));
+
+            HttpContext.Session.SetString("op", res.ToString());
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult power()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+            HttpContext.Session.SetString("operador", "^");
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult fraction()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+            int op = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+
+            res = Convert.ToInt32(1 / op);
+
+            HttpContext.Session.SetString("op", res.ToString());
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult inverse()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+            int op = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            HttpContext.Session.SetString("op", "");
+
+            res = Convert.ToInt32(-op);
+
+            HttpContext.Session.SetString("op", res.ToString());
+
+            return View("CalculadoraFixe");
+        }
+
+        public IActionResult factorial()
+        {
+            int res = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+            int op = Convert.ToInt32(HttpContext.Session.GetString("op") ?? "");
+
+            HttpContext.Session.SetInt32("res", res);
+
+            int n = op;
+
+            while (op > 0)
+            {
+                for (int i = n - 1; i > 0; i--)
+                {
+                    n *= i;
+                    op--;
+                }
+            }
+
+            res = Convert.ToInt32(n);
+
+            HttpContext.Session.SetString("op", res.ToString());
+
             return View("CalculadoraFixe");
         }
     }

@@ -86,3 +86,48 @@ C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.genruntimeconfig.cache
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\ref\Web App Test.dll
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.csproj.CopyComplete
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\appsettings.json
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.exe
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.deps.json
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.runtimeconfig.json
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.runtimeconfig.dev.json
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.dll
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\ref\Web App Test.dll
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.pdb
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.Views.dll
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.Views.pdb
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.AssemblyInfoInputs.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.AssemblyInfo.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.RazorAssemblyInfo.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.RazorAssemblyInfo.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\staticwebassets\Web App Test.StaticWebAssets.Manifest.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\staticwebassets\Web App Test.StaticWebAssets.xml
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\scopedcss\bundle\Web App Test.styles.css
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.TagHelpers.input.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.TagHelpers.output.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.RazorCoreGenerate.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\BomForm.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\CalculadoraFixe.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\InputForm.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\InputFormFixe.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Home\T605.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.RazorTargetAssemblyInfo.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.RazorTargetAssemblyInfo.cs
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.Views.pdb
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.dll
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\ref\Web App Test.dll
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.pdb
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.genruntimeconfig.cache
+C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.csproj.CopyComplete
