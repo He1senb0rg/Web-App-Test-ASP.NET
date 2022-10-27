@@ -66,7 +66,6 @@ C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.TagHelpers.output.cache
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.RazorCoreGenerate.cache
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\BomForm.cshtml.g.cs
-C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\CalculadoraFixe.cshtml.g.cs
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\InputForm.cshtml.g.cs
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Entry\InputFormFixe.cshtml.g.cs
 C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
@@ -131,3 +130,6 @@ C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\ref\We
 C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.pdb
 C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.genruntimeconfig.cache
 C:\Users\andre\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Web App Test.csproj.CopyComplete
+C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\bin\Debug\net5.0\Web App Test.StaticWebAssets.xml
+C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Calc\CalcAjax.cshtml.g.cs
+C:\Users\Big Boss\Desktop\Web-App-Test-ASP.NET\Web App Test\obj\Debug\net5.0\Razor\Views\Calc\CalculadoraFixe.cshtml.g.cs

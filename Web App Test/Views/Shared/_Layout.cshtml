@@ -37,7 +37,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Entry" asp-action="BomForm">Olaaaaaa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Entry" asp-action="CalculadoraFixe">Matematica A 3</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Calc" asp-action="CalculadoraFixe">Matematica A 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Calc" asp-action="CalcAjax">Matematica Ajax</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
@@ -73,5 +76,6 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("styles", required: false)
 </body>
 </html>

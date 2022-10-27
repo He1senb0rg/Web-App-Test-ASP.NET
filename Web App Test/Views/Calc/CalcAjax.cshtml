@@ -1,0 +1,115 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using Web_App_Test.Models;
+
+@section Styles {
+    <link href="~/css/calc.css" rel="stylesheet" type="text/css" />
+}
+
+<div class='container'>
+    <div class='row'>
+        <form class='form-group-lg form-inline' onsubmit='return false'>
+            <input type='text' id='calcinput' class='focusedInput form-control width: 50px '>
+            <button type='submit' class='btn btn-warning btn-lg'>Clear</button>
+        </form>
+    </div>
+</div>
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-xs-1 col-xs-offset-4'>
+            <button class='btn btn-lg btn-primary' type='button'>7</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button'>8</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button'>9</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button'>+</button>
+        </div>
+    </div> <!--row-->
+    <div class='row'>
+        <div class='col-xs-1 col-xs-offset-4'>
+            <button class='btn btn-lg btn-primary' type='button'>4</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button'>5</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button'>6</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button' id='small'>-</button>
+        </div>
+    </div> <!--row-->
+    <div class='row'>
+        <div class='col-xs-1 col-xs-offset-4'>
+            <button class='btn btn-lg btn-primary' type='button'>1</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button'>2</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button'>3</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button' id='small'>*</button>
+        </div>
+    </div> <!--row-->
+    <div class='row'>
+        <div class='col-xs-1 col-xs-offset-4'>
+            <button class='btn btn-lg btn-primary' type='button'>0</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button' id='small'>.</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='submit' id='submit'>=</button>
+        </div>
+        <div class='col-xs-1'>
+            <button class='btn btn-lg btn-primary' type='button' id='small'>/</button>
+        </div>
+    </div><!--row-->
+</div>
+
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('.col-xs-1').click(function () {
+                let value = $(this).text().trim();
+                if (value !== '=') {
+                      let data = { digit: value };
+                        $.ajax({
+                            type: 'GET',
+                            url: '/Calc/OperandAjax',
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            data: data,
+                            success: function (result) {
+                                $('input:text').val(result);
+                                console.log(result);
+                            },
+                            error: function () {
+                                console.log('Failed ');
+                            }
+                        });
+                } 
+/*                if ($(this).text().trim() !== '=') {
+                    var text = $(this).text().toString()
+                    $('input:text').val(function (i, val) {
+                        return val + text.trim();
+                    });
+  */              
+            })
+            $('.btn-warning').click(function () {
+                $('input:text').val('');
+            })
+            $('#submit').click(function () {
+                var expr = $('input').val();
+                var res = eval(expr);
+                $('input:text').val(res);
+            })
+        });
+    </script>
+}
