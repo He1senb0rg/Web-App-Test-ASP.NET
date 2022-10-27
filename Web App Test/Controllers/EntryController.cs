@@ -70,7 +70,7 @@ namespace Web_App_Test.Controllers
         {
             int hora = DateTime.Now.Hour;
             string dia = "";
-            if(hora > 0 && hora < 12)
+            if(hora >= 6 && hora <= 12)
             {
                 dia = "Bom dia, ";
             }
@@ -78,7 +78,7 @@ namespace Web_App_Test.Controllers
             {
                 dia = "Bom tarde, ";
             }
-            else if (hora > 20 && hora < 0)
+            else
             {
                 dia = "Bom noite, ";
             }
